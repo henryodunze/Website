@@ -1,0 +1,28 @@
+.container-fluid{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#fbfbfb;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;align-items:center;
+  font-family:'Helvetica Neue',serif}
+h1{
+  font-weight:100;font-size:3rem
+}
+a{
+  display:inline-block;margin:0 20px;font-size:16px;color:#8b8b8b;cursor:pointer;transition:color .6s
+}
+a:hover{
+  text-decoration:none !important;color:#d9d9d9
+}
+@media only screen and (max-width: 768px){
+  h1{f
+    ont-size:2rem
+  }
+  a{
+    margin:0 15px
+  }
+}
